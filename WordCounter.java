@@ -5,7 +5,7 @@ import java.util.HashMap;
 
 public class WordCounter {
     public static void main(String[] args) {
-        String text = "Hello world, how are you? Are you enjoying programming?";
+        String text = "Hello world";
 
         // Remove punctuation and convert to lowercase
         text = text.replaceAll("[^a-zA-Z ]", "").toLowerCase();

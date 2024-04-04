@@ -1,3 +1,16 @@
+// Q2:Find maximum sum path involving elements of given arrays
+// Given two sorted arrays of integers, find a maximum sum path involving elements of both arrays whose sum is maximum. 
+// We can start from either array, but we can switch between arrays only through its common elements.
+
+// For example,
+
+// Input: X = { 3, 6, 7, 8, 10, 12, 15, 18, 100 }
+// Y = { 1, 2, 3, 5, 7, 9, 10, 11, 15, 16, 18, 25, 50 }  
+// The maximum sum path is: 1 —> 2 —> 3 —> 6 —> 7 —> 9 —> 10 —> 12 —> 15 —> 16 —> 18 —> 100 
+// The maximum sum is 199
+
+
+
 public class MaximumSumPath {
     public static int maxSumPath(int[] X, int[] Y) {
         int m = X.length;
